@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Standard Time</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <!-- Analog Clock -->
+        <div class="clock-card overlay-glass">
+            <div class="analog-clock" id="analogClock">
+                <div class="hand hour" id="hourHand"></div>
+                <div class="hand minute" id="minuteHand"></div>
+                <div class="hand second" id="secondHand"></div>
+                <div class="center-dot"></div>
+
+                <!-- Markings -->
+                <div class="marking marking-12">12</div>
+                <div class="marking marking-3">3</div>
+                <div class="marking marking-6">6</div>
+                <div class="marking marking-9">9</div>
+            </div>
+        </div>
+
+        <!-- Digital Clock -->
+        <div class="digital-card overlay-glass">
+            <div class="time-display" id="digitalTime">00:00:00</div>
+            <div class="date-display" id="dateDisplay">Monday, 01 Jan 2024</div>
+            <div class="label-display">Indian Standard Time (IST)</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
