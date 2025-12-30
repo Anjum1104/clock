@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: clock-app
+    env: static
+    buildCommand: null
+    staticPublishPath: ./
